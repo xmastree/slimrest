@@ -1,0 +1,25 @@
+{
+    "name": "xmastree7/slimrest",
+    "description": "Simple REST API application skeleton",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Roman Kelemen",
+            "email": "Roman_Kelemen@epam.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "slim/slim": "2.5.0"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "~5.0",
+        "phpunit/phpunit": "4.4.*",
+        "phake/phake": "1.*",
+        "fzaninotto/faker": "*"
+    },
+    "autoload": {
+        "psr-4": {"app\\": "src/"}
+    }
+}
